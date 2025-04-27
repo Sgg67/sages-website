@@ -151,3 +151,9 @@ body {
   text-align: center;
   margin: 20px auto;
 }
+
+#Project-Heading{
+  text-align: center;
+  color: white;
+  font-family: "Concert One", sans-serif;
+}
