@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* Base Styles */
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Responsive Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  color: white;
+  font-family: "Concert One", sans-serif;
+  margin: 40px 0 20px;
+}
+
+#about-info {
+  text-align: center;
+  color: white;
+  font-size: clamp(16px, 3vw, 20px);
+  font-family: "DM Sans", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Right-offset version */
+.profile-image.offset-right {
+  margin: 30px auto 30px 55%;
+  transform: translateX(-50%);
+}
+
+/* Navbar - Perfectly Aligned 20px Left */
+.navbar {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.navbar .nav-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  left: -20px; /* Exact 20px left shift */
+}
+
+.navbar .links {
+  display: flex;
+  gap: clamp(15px, 3vw, 30px);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: clamp(14px, 2vw, 18px);
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .navbar .nav-container {
+    left: 0; /* Reset shift on mobile */
+    padding: 0 15px;
+  }
+
+  .navbar .links {
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    object-position: center 30%;
+  }
+
+  .profile-image.offset-right {
+    margin: 30px auto;
+    transform: none;
+  }
+
+  #about-info {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar a {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+    object-position: center 25%;
+  }
+}
+
+/* Alignment for About Section */
+#about,
+#about-info,
+.profile-image {
+  text-align: center;
+  margin: 20px auto;
+}
