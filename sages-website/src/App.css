@@ -157,3 +157,7 @@ body {
   color: white;
   font-family: "Concert One", sans-serif;
 }
+
+.projects{
+  text-decoration: none;
+}
