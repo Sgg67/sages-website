@@ -19,7 +19,7 @@ const Projects = () => {
             image: "./images/calculator.jpg"
         },
         {
-            title: "Movie app",
+            title: "Movie App",
             url: "https://movie-react-project-six.vercel.app/",
             image: "./images/movie.jpg"
         },
@@ -27,6 +27,11 @@ const Projects = () => {
             title: "Trivia Game",
             url: "https://trivia-game-beige.vercel.app/",
             image: "./images/trivia.jpg"
+        },
+        {
+            title: "Movie App 2.0",
+            url: "https://movie-app-20.vercel.app/",
+            image: "./images/movies.jpg"
         }
     ];
 
