@@ -1,5 +1,5 @@
 import sagePic from './images/sage-pic.jpg';
-import './Introduction.css'; 
+import './introduction.css'; 
 
 const Introduction = () => {
     return (
