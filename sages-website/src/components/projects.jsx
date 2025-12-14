@@ -32,6 +32,11 @@ const Projects = () => {
             title: "Movie App 2.0",
             url: "https://movie-app-20.vercel.app/",
             image: "./images/movies.jpg"
+        },
+        {
+            title: "Find My Pickle",
+            url: "https://github.com/Sgg67/Find_My_Pickle",
+            image: "./images/Find_My_Pickle.jpg"
         }
     ];
 
