@@ -6,7 +6,7 @@ const Introduction = () => {
         <section className="intro-section">
             <div className="intro-container">
                 <div className="intro-text">
-                    <h1 className="intro-title">Hello, I'm <span className="highlight">Sage</span></h1>
+                    <h1 className="intro-title">Hello, I am <span className="highlight">Sage</span></h1>
                     <h2 className="intro-subtitle">
                         Computer Science Senior at the University of Pittsburgh
                     </h2>
