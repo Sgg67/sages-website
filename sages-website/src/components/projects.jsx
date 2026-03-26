@@ -9,6 +9,11 @@ const Projects = () => {
             image: "./images/weatherapp.jpg"
         },
         {
+            title: "Card King",
+            url: "https://github.com/Sgg67/Card-King",
+            image: "./images/card_king.png"
+        },
+        {
             title: "Step counter game",
             url: "https://editor.p5js.org/Sage-Yanoff/sketches/8kkwI01_N",
             image: "./images/running.jpg"
